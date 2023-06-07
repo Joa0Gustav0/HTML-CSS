@@ -99,10 +99,11 @@ main{
     text-align: justify;
 }
 
-#species-content > div{
+#species-content a{
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
+    text-decoration: none;
 }
 
 #vitis-images{
