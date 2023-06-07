@@ -21,3 +21,5 @@
 03 & 04/06 - This days was so intense - In different ways of the word!!!- I've learned so much new things... I can say I really dived into the studying vibes... Then I could proof I've learnead so much new things by deving my first "concluded" website project!!! I am so happy by myself! By the way, Im really tired because I almost didn't sleep this weekend... That's it... I will keep going!
 
 05/06 - Today I didn't studied so much... Telling the truth I basically didn't learn something new... Just reviewing... By the way, I'm more confident about myself, felling more even more connected to the subject, u know, honey... 🐝✨
+
+06/06 - Today I'vent done so much things... However, the felling that I am getting somewhere remains, and it makes me even more confident to carry on... I've had my "first" contact with Git and GitHub... And it's kind interesting! I wanna know even more about it...
