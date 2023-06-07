@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #ff0050, black);
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+
+#navbar{
+    padding: 20px;
+}
+#navbar a{
+    padding: 20px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    transition: .3s;
+    color: #ff0050;
+}
+
+#researchbar{
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.041);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.048);
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    align-items: center;
+}
+
+#researchbar:hover{
+    transition: .3s;
+    background-color: rgb(228, 228, 228);
+}
+
+#researchbar img{
+    width: 15px;
+    padding: 7px;
+    display: block;
+}
+
+#logo{
+    padding: 40px;
+}
+
+#logo > a{
+    text-decoration: none;
+}
+
+#logo img{
+    transition: .25s;
+    width: 64px;
+}
+
+#logo img:hover{
+    transition: .25s;
+    width: 74px;
+}
+
+#login-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    margin: auto;
+    margin-top: 75px;
+    max-width: 300px;
+    height: 310px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.178);
+}
+#login-card h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 2.5px rgba(0, 0, 0, 0.185);
+}
+
+#username-input, #password-input{
+    transition: .2s;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    border-radius: 25px;
+    background-color: rgb(233, 232, 232);
+    border: none;
+}
+
+#username-input:focus,
+#password-input:focus{
+    width: 82.5%;
+}
+
+#login-form{
+    width: 100%;
+    height: 100%;
+}
+
+#login-form a{
+    padding-left: 30px;
+}
+
+#login-form button{
+    background-color:#ff0050;
+    color: white;
+    text-transform: uppercase;
+    width: 70px;
+    height: 35px;
+    border-radius: 25px;
+    border: none;
+    margin: 15px;
+    margin-left: 38%;
+}
+
+#login-card button{
+    border: 1px solid #ebe3e5;
+}
+
+#login-card button:hover{
+    background-color: #e20048;
+    cursor: pointer;
+}
+
+#login-card button:active
+{
+    background-color: #e40048;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.377);
+}
+
+#login-social-medias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#social-media-logo > img{
+    transition: .1s;
+    width: 25px;
+    margin: 10px;
+}
+
+#social-media-logo > img:hover{
+    transition: .1s;
+    width: 30px;
+    margin: 5px;
+}

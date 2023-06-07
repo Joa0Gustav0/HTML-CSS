@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias in HTML</title>
+</head>
+<body>
+    <h1>Dinamic images</h1>
+    <p>
+        Test the responsivity of this picture by resizing your browser:
+    </p>
+    <picture> <!--Basically, this <piture> and <source> tags reffers to the responsivity-->
+        <source media="(max-width: 750px)" srcset="C:\Users\guga6\OneDrive\Documentos\studies\html-css\exercises-medias\image_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="C:\Users\guga6\OneDrive\Documentos\studies\html-css\exercises-medias\image_m.png" type="image/png">
+        <img src="C:\Users\guga6\OneDrive\Documentos\studies\html-css\exercises-medias\image_g.png" alt="Test picture">
+    </picture>
+
+    <h1>Audio</h1> <!--mp3 WAV ogg-->
+    <p>
+        Here, we are going to use audio:
+    </p>
+    <audio src="C:\Users\guga6\OneDrive\Documentos\studies\html-css\exercises-medias\Birthday Cake - Reed Mathis.mp3" controls autoplay></audio>
+
+    <h1>Videos</h1>
+    <p>
+        Here, we are going to insert a video:
+    </p>
+    <video autoplay muted loop width="300px">
+        <source src="C:\Users\guga6\OneDrive\Documentos\studies\html-css\exercises-medias\Video.mp4" type="video/mp4">
+    </video>
+
+    <p>Here, we have a external video:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

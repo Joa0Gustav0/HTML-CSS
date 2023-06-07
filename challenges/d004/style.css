@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+body{
+    margin: 0px;
+    background-image: url(media/low-poly-grid-haikei.png);
+    height: 100%;
+}
+
+#logo{
+    width: 50px;
+    padding: 15px;
+}
+#logo:hover{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 10px #0000002c;
+}
+
+#navbar-left{
+    display: flex;
+    font-family: 'Ubuntu';
+    font-size: .8em;
+    text-transform: uppercase;
+    float: left;
+}
+
+#navbar-left > div{
+    padding: 20px;
+    padding-top: 35px;
+    font-weight: 600;
+}
+#home:hover,
+#news:hover,
+#curiosities:hover{
+    transition: .25s;
+    color: slateblue;
+    cursor: pointer;
+}
+
+#navbar-right{
+    display: flex;
+    float: right;
+}
+
+#research-bar{
+    transition: .5s;
+    width: 35px;
+    height: 35px;
+    margin: 25px;
+    border-radius: 100px;
+    margin-right: 20px;
+    background-color: slateblue;
+}
+
+#research-bar:hover{
+    cursor: pointer;
+    transition: .5s;
+    padding-left: 300px;
+    margin-right: 0px;
+}
+
+#research-bar:hover #loupe > img{
+    transition: .5s;
+    visibility: visible;
+}
+
+#loupe{
+    height: 25px;
+}
+
+#loupe > img{
+    width: 15px;
+    padding: 10px;
+    visibility: hidden;
+}
+
+main{
+    font-family: 'Ubuntu';
+}
+
+#information-session{
+    max-width: 470px;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    margin: auto;
+    text-align: justify;
+}
+
+#species{
+    display: flex;
+    text-align: justify;
+}
+
+#species-content > div{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+}
+
+#vitis-images{
+    width: 450px;
+    height: 300px;
+    padding: auto;
+    display: auto;
+    border-radius: 2em;
+    margin-left: 10px;
+}
+
+@keyframes Change-image{
+    0%{
+        background-image: url(media/Vitis_aestivalis.jpg);
+    }
+    25%{
+        background-image: url(media/Vitis_labrusca.jpg);
+    }
+    50%{
+        background-image: url(media/Vitis_rupestris.jpg);
+    }
+    75%{
+        background-image: url(media/Vitis_riparia.jpg);
+    }
+    100%{
+        background-image: url(media/Vitis_aestivalis.jpg);
+    }
+}
+
+#vitis-images{
+    animation-duration: 10s;
+    animation-name: Change-image;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+h1{
+    color: slateblue;
+    text-align: center;
+    font-weight: bolder;
+}
+h2{
+    transition: .5s;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px;
+    background-image: linear-gradient(to right, rgb(162, 148, 255), transparent);
+    border-radius: 20px;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h2:hover{
+    transition: .5s;
+    font-size: 1.5em;
+    color: slateblue;
+    
+}
+
+#species-content > div:hover{
+    color: slateblue;
+    cursor: default;
+}
+
+#video-session
+{
+    background-color: rgb(38, 33, 73);
+    max-width: 490px;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+video{
+    max-width: 450px;
+    padding: 15px;
+    margin: auto;
+    display: block;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Ubuntu';
+    text-align: center;
+    font-weight: 300;
+    padding: 2px;
+}
+
+span{
+    color: slateblue;
+    font-weight: 700;
+}
