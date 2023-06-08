@@ -44,43 +44,6 @@ header{
     cursor: pointer;
 }
 
-#navbar-right{
-    display: flex;
-    float: right;
-}
-
-#research-bar{
-    transition: .5s;
-    width: 35px;
-    height: 35px;
-    margin: 25px;
-    border-radius: 100px;
-    margin-right: 20px;
-    background-color: slateblue;
-}
-
-#research-bar:hover{
-    cursor: pointer;
-    transition: .5s;
-    padding-left: 300px;
-    margin-right: 0px;
-}
-
-#research-bar:hover #loupe > img{
-    transition: .5s;
-    visibility: visible;
-}
-
-#loupe{
-    height: 25px;
-}
-
-#loupe > img{
-    width: 15px;
-    padding: 10px;
-    visibility: hidden;
-}
-
 main{
     font-family: 'Ubuntu';
 }
