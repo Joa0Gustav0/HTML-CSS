@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body{
+    background-color: rgb(50,50,50);
+    display: flex;
+    justify-content: center;
+    font-family: 'Share Tech Mono';
+}
+
+.cards-container{
+    width: 90%;
+    height: 350px;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cards{
+    margin: 10px;
+}
+
+.cards:hover .card-face-top{
+    transition: .25s;
+    transform: translateY(150px);
+}
+.cards:hover .card-face-bottom{
+    transition: .25s;
+    transform: translateY(-150px);
+    background-color: #ff0050;
+}
+
+.cards:hover .card-face-bottom > svg,
+.cards:hover .card-face-bottom > h2{
+    transition: .25s;
+    color: white;
+}
+
+.card-face-top{
+    transition: .25s;
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 150px;
+    position: relative;
+    transform: translateY(75px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-face-top p{
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.read-more-button{
+    margin-left: 5px;
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.read-more-button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+}
+
+.card-face-bottom{
+    transition: .25s;
+    background-color: rgb(50,50,50);
+    width: 250px;
+    height: 150px;
+    position: relative;
+    transform: translateY(-75px);
+    text-align: center;
+}
+
+.card-face-bottom svg{
+    transition: .25s;
+    width: 80px;
+    height: 80px;
+    color: rgb(80, 80, 80);
+    padding-top: 10px;
+}
+
+.card-face-bottom h2{
+    transition: .25s;
+    padding-bottom: 10px;
+    color: rgb(80, 80, 80);
+}
