@@ -20,20 +20,30 @@ header{
     display: flex;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0px 5px 10px #0000002c;
+    box-shadow: 0px 5px 20px #0000009a;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.411);
 }
 
 #navbar-left{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: 'Ubuntu';
     font-size: .8em;
     text-transform: uppercase;
     float: left;
 }
 
-#navbar-left > div{
+#topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#topics > div{
     padding: 20px;
-    padding-top: 35px;
     font-weight: 600;
 }
 #home:hover,
@@ -57,50 +67,50 @@ main{
     text-align: justify;
 }
 
-#species{
-    display: flex;
-    text-align: justify;
-}
-
 #species-content a{
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     text-decoration: none;
+    text-align: center;
 }
 
-#vitis-images{
-    width: 450px;
-    height: 300px;
-    padding: auto;
-    display: auto;
+#images-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#images-area img{
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
     border-radius: 2em;
-    margin-left: 10px;
 }
 
-@keyframes Change-image{
-    0%{
-        background-image: url(media/Vitis_aestivalis.jpg);
-    }
-    25%{
-        background-image: url(media/Vitis_labrusca.jpg);
-    }
-    50%{
-        background-image: url(media/Vitis_rupestris.jpg);
-    }
-    75%{
-        background-image: url(media/Vitis_riparia.jpg);
-    }
-    100%{
-        background-image: url(media/Vitis_aestivalis.jpg);
-    }
-}
-
-#vitis-images{
+#images-area img{
     animation-duration: 10s;
     animation-name: Change-image;
     animation-iteration-count: infinite;
     animation-direction: normal;
+}
+
+@keyframes Change-image{
+    0%{
+        content: url(media/Vitis_aestivalis.jpg);
+    }
+    25%{
+        content: url(media/Vitis_labrusca.jpg);
+    }
+    50%{
+        content: url(media/Vitis_rupestris.jpg);
+    }
+    75%{
+        content: url(media/Vitis_riparia.jpg);
+    }
+    100%{
+        content: url(media/Vitis_aestivalis.jpg);
+    }
 }
 
 h1{
@@ -143,13 +153,15 @@ h2:hover{
     margin-bottom: 20px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.473);
+    text-align: center;
 }
 
 video{
     max-width: 450px;
-    padding: 15px;
+    padding: 5px;
     margin: auto;
-    display: block;
+    border-radius: 10px;
 }
 
 footer{
