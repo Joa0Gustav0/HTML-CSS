@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 90%;
+    min-height: 400px;
+}
+
+.cards{
+    background-color: white;
+    margin: 10px;
+    width: 325px;
+    height: 100%;
+    font-family: 'Ubuntu';
+    text-align: center;
+}
+
+.cards > img{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+h2{
+    color: rgb(180, 180, 180);
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: 400;
+    margin: auto;
+    margin: 20px;
+    width: 90%;
+}
+
+.social-media-logos-container{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-media-logos-container svg{
+    transition: 0.25s;
+    color: rgb(124, 124, 124);
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+.social-media-logos-container svg:hover{
+    transition: 0.25s;
+    color: black;
+    cursor: pointer;
+}
