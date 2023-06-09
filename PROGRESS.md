@@ -23,3 +23,5 @@
 05/06 - Today I didn't studied so much... Telling the truth I basically didn't learn something new... Just reviewing... By the way, I'm more confident about myself, felling more even more connected to the subject, u know, honey... 🐝✨
 
 06/06 - Today I'vent done so much things... However, the felling that I am getting somewhere remains, and it makes me even more confident to carry on... I've had my "first" contact with Git and GitHub... And it's kind interesting! I wanna know even more about it...
+
+08/06 - Today I've done si many things... I have no much things to say... By the way, I can feel sone evolution coming in day from day... I'm too tired for writting... That's all for today!
