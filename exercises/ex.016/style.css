@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+table{
+    border-collapse: collapse;
+}
+thead th, thead td{
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+tbody td, tbody th{
+    padding: 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tfoot td, tfoot th{
+    background-color: gray;
+}
