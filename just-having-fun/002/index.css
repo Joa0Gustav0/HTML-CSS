@@ -110,6 +110,9 @@ ion-icon{
 .social-icons{
     transform: translateX(-50%);
     display: flex;
+    position: absolute;
+    left: 50%;
+    top: 75%;
 }
 
 .social-icons ion-icon{
