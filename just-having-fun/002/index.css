@@ -14,7 +14,7 @@ body{
 
 .container{
     position: relative;
-    background: transparent url('./media/background.jpg') top center no-repeat fixed;
+    background: transparent url('./media/background.jpg') top center no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
