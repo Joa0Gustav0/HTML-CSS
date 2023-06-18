@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    background: transparent url('./media/background.jpg') top center no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-card{
+   
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.315);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card > form{
+    margin: 20px;
+    color: white;
+}
+
+.login-card h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
+}
+#remember-boxid{
+    margin-left: 10px;
+}
+#remember-box-label{
+    font-weight: 300;
+    font-size: 1em;
+}
+
+#nameid, #passwordid{
+    background-color: transparent;
+    border: none;
+    margin: 5px;
+    color: white;
+    transition: .3s;
+    width: 200px;
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.input-box{
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+ion-icon{
+    width: 25px;
+    height: 25px;
+}
+#nameid:focus, #passwordid:focus{
+    border: 0;
+    outline: 0;
+    transition: .3s;
+    width: 230px;
+}
+.button-box{
+    margin-top: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login-button{
+    transition: .2s;
+    width: 80px;
+    height: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+#login-button:hover{
+    cursor: pointer;
+    transition: .2s;
+    transform: scale(110%, 110%);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.616);
+}
+
+.social-icons{
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.social-icons ion-icon{
+    transition: .25s;
+    color: white;
+}
+.social-icons a{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+.social-icons ion-icon:hover{
+    transition: .25s;
+    color: #3a93ff;
+    transform: scale(130%, 130%);
+}
