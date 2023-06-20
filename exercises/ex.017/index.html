@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        input{
+            color: black;
+        }
+        body{
+            background-color: rgb(50, 50, 50);
+        }
+        h1{
+            text-transform: uppercase;
+        }
+    </style>
+    <title>Working With Inputs</title>
+</head>
+<body id="bodyid">
+    <h1>Working with inputs:</h1>
+    <hr>
+    <p>Inputs are inserted into formularies</p>
+    <form action="" method="post" autocomplete="off">
+        <label for="usernameid">Enter username: </label><input type="text" name="username" id="usernameid">
+        <br>
+        <label for="birthdateid">Set your date of birth: </label><input type="date" name="birthdate" id="birthdateid" >
+        <br>
+        <label for="birthyearid">Set the YEAR of your birth: </label><input type="number" name="birthyear" id="birthyearid" oninput="ageid.innerHTML = Number(2023) - Number(birthyearid.value)">
+        <br>
+        <label for="ageid">Your age is: </label><output id="ageid">---</output>
+        <br>
+        <label for="cellphoneid"> Enter telephone number: </label><input type="tel" name="cellphone" id="cellphoneid" 
+        pattern="^\([0-9]{1,2}\)[0-9]{4,5}\-[0-9]{4}$">
+        <!-- How'd hell I can put the little hat symbol????????? -->
+        <br>
+        <label for="passwordid">Enter password: </label><input type="text" name="password" id="passwordid">
+        <br>
+        <input type="checkbox" name="rememberbox" id="rememberboxid"><label for="rememberboxid"> Remember me</label>
+        <br>
+        Select your biological sex:
+        <br>
+        <input type="radio" name="masculinesex" id="sexid"><label for="sexid">Man</label>
+        <br>
+        <input type="radio" name="masculinesex" id="sexid"><label for="sexid">Woman</label>
+        <br>
+        <input type="radio" name="masculinesex" id="sexid"><label for="sexid">No information</label>
+        <br>
+        <label for="favoritecolorid">Select your favorite color:</label>
+        <input type="color" name="favoritecolor" id="favoritecolorid" value="#FF0050">
+        <br>
+        <label for="satisfactionlevelid">Tell us your satisfaction level about our service:</label>
+        <br>
+        <input type="range" name="satisfactionlevel" id="satisfactionlevelid" min="1" max="10" value="10" oninput="RogerinhosSatisfaction.innerHTML = satisfactionlevelid.value">
+        <br>
+        <label for="RogerinhosSatisfaction">Your satisfaction level is: </label><output id="RogerinhosSatisfaction">10</output>
+        <br>
+        <input type="submit" value="enviar">
+        <br>
+        <br>
+        <br>
+
+        <label for="number1id">Number 1: </label><input type="number" name="number1" id="number1id" oninput="somaid.innerHTML = Number(number1id.value) + Number(number2id.value)">
+        <br>
+        <label for="number2id">Number 2: </label><input type="number" name="number2" id="number2id" oninput="somaid.innerHTML = Number(number1id.value) + Number(number2id.value)">
+        <br>
+        <label for="somaid">Soma: </label><output id="somaid">0</output>
+
+        <script>
+            document.getElementById("bodyid").style.backgroundColor = document.getElementById("favoritecolorid").value; 
+        </script>
+    </form>
+</body>
+</html>
