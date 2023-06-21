@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="script.js">
+    <title>The Blacklist - Characters</title>
+</head>
+<body>
+    <div class="content-container">
+        <div class="title-section">
+            <img src="media/title-image.png" alt="" width="300px">
+        </div>
+        <div class="bottom-content">
+            <div class="leftside-card">
+                <h2>Select a character:</h2>
+                <div class="cards-section" onmouseleave="Default()">
+                    <a href="#"><img src="media/profile-images/reddington-profile-image.jpg" alt="" onmouseover="Reddington()" id="profile-images"></a>
+                    <a href="#"><img src="media/profile-images/elizabeth-profile-image.jpg" alt="" onmouseover="Elizabeth()" id="profile-images"></a>
+                    <a href="#"><img src="media/profile-images/ressler-profile-image.jpg" alt="" onmouseover="Ressler()" id="profile-images"></a>
+                    <a href="#"><img src="media/profile-images/meera-profile-image.png" alt="" onmouseover="Meera()" id="profile-images"></a>
+                    <a href="#"><img src="media/profile-images/aram-profile-image.jpg" alt="" onmouseover="Aram()" id="profile-images"></a>
+                    <a href="#"><img src="media/profile-images/harold-profile-image.jpg" alt="" onmouseover="Harold()" id="profile-images"></a>
+                </div>
+            </div>
+            <div class="rightside-card">
+                <div class="info-section">
+                    <div class="character-image" id="character-image"></div>
+                    <div class="character-info">
+                        <h1 id="character-name">first-name last-name</h1>
+                        <p id="character-data">
+                            - No Data -
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function Default(){
+            document.getElementById("character-name").innerHTML='First-name Last-name';
+
+            document.getElementById("character-data").innerHTML="- No Data -"
+
+            document.getElementById("character-image").style.backgroundImage="";
+        }
+        function Reddington(){
+            document.getElementById("character-name").innerHTML='Raymond Reddington';
+
+            document.getElementById("character-data").innerHTML="  Reddington is a very smart criminal and the fourth most wanted on the FBI's list."
+
+            document.getElementById("character-image").style.backgroundImage="url('./media/info-images/reddington-info-image.jpg')";
+        }
+        function Elizabeth(){
+            document.getElementById("character-name").innerHTML='Elizabeth Keen';
+
+            document.getElementById("character-data").innerHTML=" Elizabeth is an FBI agent who becomes the target of Reddington."
+
+            document.getElementById("character-image").style.backgroundImage="url('./media/info-images/elizabeth-info-image.jpg')";
+        }
+        function Ressler(){
+            document.getElementById("character-name").innerHTML='Donald Ressler';
+
+            document.getElementById("character-data").innerHTML=" Donald Ressler Another agent on Harold Cooper's task force."
+
+            document.getElementById("character-image").style.backgroundImage="url('./media/info-images/ressler-info-image.jpg')";
+        }
+        function Meera(){
+            document.getElementById('character-name').innerHTML='Meera Malik';
+
+            document.getElementById('character-data').innerHTML='An agent of the Central Intelligence Agency.';
+
+            document.getElementById('character-image').style.backgroundImage="url('./media/info-images/meera-info-image.jpg')";
+        }
+        function Aram(){
+            document.getElementById('character-name').innerHTML='Aram Mojtabai';
+
+            document.getElementById('character-data').innerHTML='An agent of the Central Intelligence Agency.';
+
+            document.getElementById('character-image').style.backgroundImage="url('./media/info-images/aram-info-image.jpg')";
+        }
+        function Harold(){
+            document.getElementById('character-name').innerHTML='Harold Cooper';
+
+            document.getElementById('character-data').innerHTML='The Assistant Director for Counter-terrorism at the FBI';
+
+            document.getElementById('character-image').style.backgroundImage="url('./media/info-images/harold-info-image.jpg')";
+        }
+    </script>
+</body>
+</html>
