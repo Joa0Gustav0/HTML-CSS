@@ -141,6 +141,7 @@ h1:hover{
 }
 
 .alternative-access{
+    transition: .5s;
     position: absolute;
     top: 114%;
     left: 25%;
@@ -180,6 +181,7 @@ h1:hover{
         visibility: hidden;
     }
     .alternative-access{
+        transition: .5s;
         left: 50%;
         top: 115%;
     }
