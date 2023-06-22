@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Menu</title>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav class="increased-nav">
+            <a href="#">Option1</a>
+            <a href="#">Option2</a>
+            <a href="#">Option3</a>
+            <a href="#">Option4</a>
+        </nav>
+        <nav class="decreased-nav">
+            <a href="#" id="menu-button" onclick="OpenMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 6l16 0"></path>
+                <path d="M4 12l16 0"></path>
+                <path d="M4 18l16 0"></path>
+                </svg>
+            </a>
+            <div id="menu">
+                <a href="#">Option1</a>
+                <a href="#">Option2</a>
+                <a href="#">Option3</a>
+                <a href="#">Option4</a>
+            </div>
+            <a href="#" id="close-menu-button" onclick="CloseMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 6l16 0"></path>
+                <path d="M4 12l16 0"></path>
+                <path d="M4 18l16 0"></path>
+                </svg>
+            </a>
+        </nav>
+    </header>
+    <br>
+    <main>
+        <h2>Some aragraphs</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias non laudantium tempore? Quas at ipsam laudantium error molestiae nemo molestias illo similique soluta delectus qui assumenda, consectetur quae ut alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, deserunt sequi. Corporis similique vel omnis accusantium magnam, quia aut commodi quod id rerum sunt dolorem? Similique blanditiis impedit architecto dolore! lore
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias non laudantium tempore? Quas at ipsam laudantium error molestiae nemo molestias illo similique soluta delectus qui assumenda, consectetur quae ut alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, deserunt sequi. Corporis similique vel omnis accusantium magnam, quia aut commodi quod id rerum sunt dolorem? Similique blanditiis impedit architecto dolore! lore
+        </p>
+    </main>
+
+    <script>
+        function OpenMenu(){
+            document.getElementById("menu-button").style.display="none";
+            document.getElementById("close-menu-button").style.display="flex";
+            document.getElementById("menu").style.display="initial";
+        }
+        function CloseMenu(){
+            document.getElementById("menu-button").style.display="flex";
+            document.getElementById("close-menu-button").style.display="none";
+            document.getElementById("menu").style.display="none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.171);
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    color: white;
+    border-bottom: 1px solid white
+}
+.decreased-nav{
+    margin: 10px;
+}
+.decreased-nav a{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 18px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decreased-nav svg{
+    color: black;
+}
+
+.increased-nav{
+    display: none;
+}
+.increased-nav a{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 18px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.increased-nav a:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+#menu, #close-menu-button{
+    display: none;
+}
+
+main{
+    display: block;
+    margin: 10px auto;
+    padding: 2px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.11);
+    width: 700px;
+}
+
+@media only screen and (max-width:400px)
+{
+    .decreased-nav{
+        display: block;
+    }
+    .increased-nav{
+        display: none;
+    }
+}
+@media only screen and (min-width:400px)
+{
+    .decreased-nav{
+        display: none;
+    }
+    .increased-nav{
+        display: block;
+    }
+}
+@media only screen and (max-width:768px){
+    main {
+        width: 90%;
+    }
+}
