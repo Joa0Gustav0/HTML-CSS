@@ -36,4 +36,7 @@
 
 22/09 - Hi... It's a long time since the first time I wrote something right here... By the way, today, as I did not have time to code or study, I decided to update this "diary"... Sharing my progress, last time I said I was starting to learn JavaScript and really getting there... And now, I can say I have learned it for real and I am programming every single day... Finishing my learning about JavaScript, I started studying React! And it's awesome... This lib is making me feel like a true programmer... I am loving it so much... A awesome thing I had contact and truly learned it, was how to work with APIs... It's a magical universe! And that's it... I really found a career for life... ❤️
 
-30/09 - Hey... Hmm... I am not sure about what can I write here now... By the way, the unic topic I can even think and is relevant is about my React learning progress. I can say I really learned it! It's a awesome. 
+30/09 - Hey... Hmm... I am not sure about what can I write here now... By the way, the unic topic I can even think and is relevant is about my React learning progress. I can say I really learned it! It's a awesome...
+
+01/10 - Here I am, another day without programming... By the way, I presume tomorrow I already can start a new project - This is going to be my "first official React project". I am really excited for this, however, I am a lil bit no creative... Whatever... I will do it! You know, having in mind all of this is my future is so ambiguos, I love the sensation that I know what I want for my future, but,
+I feel afraid about joining this "world"... But I know I will get it! Cheers for life! 🍹✨
