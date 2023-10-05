@@ -40,3 +40,5 @@
 
 01/10 - Here I am, another day without programming... By the way, I presume tomorrow I already can start a new project - This is going to be my "first official React project". I am really excited for this, however, I am a lil bit no creative... Whatever... I will do it! You know, having in mind all of this is my future is so ambiguos, I love the sensation that I know what I want for my future, but,
 I feel afraid about joining this "world"... But I know I will get it! Cheers for life! 🍹✨
+
+02/10 - I can not say I am proud about myself relate to my productivity... By the way, the previous days - Those I did not commit at least once - I felt bad, I got a fiver, and it made some things impossible to be done... I passed all the time on bed... Today I still felling some symptoms, however I presume tomorrow I will be 100% better, then, I can resume to the works! In addition, today I've started planning the "layout" of my new project. I can not say it was something really good, but it is not that bad... At least, I can say I have targeting for now... That's it for now! Bye!
