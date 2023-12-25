@@ -45,4 +45,6 @@ I feel afraid about joining this "world"... But I know I will get it! Cheers for
 
 05/10 - Hey... Another day without doing a single thing... Relate to my health, I still feel no good... All the days I try to produce the least I can... Whatever... I presume I really found a good design for my new project, so I am felling a little bit confident about this... I will get it! Wish me get well as soon as possible! I wiil get it! * listening to Tim Maia and Rita Lee * 😊🌬
 
-12/12 - Yess... Once more, here I am, writting something after a long time... I just can say I am very proud by myself. I am on a good progress... I presume things will happen really quickly since this moment... I really hope all my thoughts turn them self into real things. But remember Gustavo from future: You were confident and happy! And I love you! 🌬🍃  
+12/12 - Yess... Once more, here I am, writting something after a long time... I just can say I am very proud by myself. I am on a good progress... I presume things will happen really quickly since this moment... I really hope all my thoughts turn them self into real things. But remember Gustavo from future: You were confident and happy! And I love you! 🌬🍃 
+
+24/12 - Hey... Today was Christmas night... I am pleasent about myself... So many thoughts, but thats it... again, I have to say I really find myself in coding... I really love it! I am not at home, so, far from my desktop * Missing my comum coding routine *. Anyway, I am anxious for returning into my studies! Bye, baby! N' I wish you a happy Merry Xmas! 🎄✨
